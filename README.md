@@ -92,4 +92,4 @@ exports.handler=function(event,context,callback){
     callback(null,response)
 };
 ~~~
-Now Create 
+Now Create API Gateway
