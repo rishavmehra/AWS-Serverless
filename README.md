@@ -26,7 +26,7 @@
 
 use this docs for aws static website hosting S3 [Rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html#step4-add-bucket-policy-make-content-public)
 
-`{
+```{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -41,6 +41,6 @@ use this docs for aws static website hosting S3 [Rules](https://docs.aws.amazon.
             ]
         }
     ]
-}`
+}```
 
 
