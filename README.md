@@ -91,5 +91,9 @@ exports.handler=function(event,context,callback){
     return response;
     callback(null,response)
 };
+
+
 ~~~
-Now Create API Gateway
+Now Create API Gateway use REST API, New API. Set API Name now create resource under resource click on Action Make Create Method (GET,POST) final step deploy API under Action button.
+Note: After Every small with any service don't forgot to deploy API.
+
