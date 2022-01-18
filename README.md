@@ -18,7 +18,7 @@
 
 - AWS SES: Create Identity using your personal/company E-mail address.
 
-![alt text](https://github.com/rishavmehra/AWS-Serverless/blob/main/serverless%20.png)
+![](https://github.com/rishavmehra/AWS-Serverless/blob/main/images/serverless%20.png)
 
 ---
 
@@ -43,6 +43,7 @@ use this docs for aws static website hosting S3 [Rules](https://docs.aws.amazon.
     ]
 }
 ```
+![](https://github.com/rishavmehra/AWS-Serverless/blob/main/images/S3.png)
 
 ---
 
@@ -91,9 +92,16 @@ exports.handler=function(event,context,callback){
     return response;
     callback(null,response)
 };
-
-
 ~~~
-Now Create API Gateway use REST API, New API. Set API Name now create resource under resource click on Action Make Create Method (GET,POST) final step deploy API under Action button.
-Note: After Every small with any service don't forgot to deploy API.
+
+![](https://github.com/rishavmehra/AWS-Serverless/blob/main/images/lambda.png)
+
+Now Create API Gateway use REST API, New API. Set API Name now create resource under resource click on Action Make Create Method (GET,POST) final step deploy API under Action button. <br />
+*Note*: After Every small with any service don't forgot to deploy API.
+
+![](https://github.com/rishavmehra/AWS-Serverless/blob/main/images/API.png)
+
+### Test
+![](https://github.com/rishavmehra/AWS-Serverless/blob/main/images/email.png)
+
 
