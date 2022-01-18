@@ -20,3 +20,27 @@
 
 ![alt text](https://github.com/rishavmehra/AWS-Serverless/blob/main/serverless%20.png)
 
+---
+
+> Create a new Bucket in S3 same name as a domain name of Your Site. After Creating a bucket put your HTML, JS, CSS into this bucket. After all of these you have to enable the Static Web permission under properties tab. Now, Enable public access.
+
+use this docs for aws static website hosting S3 [Rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html#step4-add-bucket-policy-make-content-public)
+
+`{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+}`
+
+
